@@ -22,7 +22,7 @@ public class UserDaoJDBCImpl implements UserDao {
                               "  `id` INT NOT NULL AUTO_INCREMENT,\n" +
                               "  `name` VARCHAR(255) NULL,\n" +
                               "  `lastName` VARCHAR(255) NULL,\n" +
-                              "  `age` INT NULL,\n" +
+                              "  `age` SMALLINT NULL,\n" +
                               "  PRIMARY KEY (`id`))");
         } catch (SQLException e) {
             e.printStackTrace();
